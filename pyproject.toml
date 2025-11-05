@@ -1,0 +1,19 @@
+[project]
+name = "py-cli-101"
+version = "0.1.0"
+description = "learning cli"
+authors = [
+    {name = "NewwyKung",email = "cnewwy@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.14, <4.0"
+dependencies = [
+    "click (>=8.3.0,<9.0.0)",
+    "inquirerpy (>=0.3.4,<0.4.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
