@@ -3,7 +3,6 @@ name = "py-cli-101"
 version = "0.1.0"
 description = "learning cli"
 authors = [
-    {name = "NewwyKung",email = "cnewwy@gmail.com"}
 ]
 license = {text = "MIT"}
 readme = "README.md"
